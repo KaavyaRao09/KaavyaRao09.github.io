@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'jasmine_scriptregular';
+    src: url('jasmine_script-webfont.woff2') format('woff2'),
+    url('jasmine_script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: white !important;
+}
+
+.name {
+    background-color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #555;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+
+header img {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%; 
+    position: absolute; 
+    top: 50%; 
+    right: 20px; 
+    transform: translateY(-50%);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    color: #bbb;
+}
+
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.project {
+    margin-bottom: 20px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.project h3 {
+    color: #fff;
+}
+
+.project p {
+    color: #bbb;
+}
+
+div.projects {
+    overflow: auto !important;
+}
+
+div.projects div.project {
+    width: 26.6%;
+    float: left;
+    margin: 1%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.projects-content {
+    margin-top: 10px;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
+}
