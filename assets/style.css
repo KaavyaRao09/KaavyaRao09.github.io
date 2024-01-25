@@ -42,7 +42,7 @@ header img {
     border-radius: 50%; 
     position: absolute; 
     top: 50%; 
-    right: 20px; 
+    right: 10%; 
     transform: translateY(-50%);
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
