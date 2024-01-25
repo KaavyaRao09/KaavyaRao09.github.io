@@ -1,9 +1,9 @@
-@font-face {
-    font-family: 'jasmine_scriptregular';
-    src: url('jasmine_script-webfont.woff2') format('woff2'),
-    url('jasmine_script-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+/* Add a simple responsive styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
 }
 
 body {
@@ -38,11 +38,11 @@ header {
 
 header img {
     width: 100px;
-    height: 100px; 
-    border-radius: 50%; 
-    position: absolute; 
-    top: 50%; 
-    right: 10%; 
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 10%;
     transform: translateY(-50%);
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
@@ -57,7 +57,6 @@ header p {
     font-size: 1.2em;
     color: #bbb;
 }
-
 
 section {
     padding: 40px 0;
@@ -89,9 +88,9 @@ div.projects {
 }
 
 div.projects div.project {
-    width: 26.6%;
-    float: left;
-    margin: 1%;
+    width: 26%; /* Full width on small screens */
+    float: left; /* No floating on small screens */
+    margin: 1% ; /* Adjust margin for better spacing on small screens */
 }
 
 footer {
@@ -122,7 +121,24 @@ footer {
     margin-top: 10px;
 }
 
-.link{
+.link {
     color: #fff;
     text-decoration: none;
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    header img {
+        right: 5%; /* Adjust position for smaller screens */
+    }
+
+    div.projects div.project {
+        width: 100%; /* Full width on small screens */
+        float: none; /* No floating on small screens */
+        margin: 1% 0; /* Adjust margin for better spacing on small screens */
+    }
 }
