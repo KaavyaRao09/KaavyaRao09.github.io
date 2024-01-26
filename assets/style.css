@@ -1,4 +1,3 @@
-/* Add a simple responsive styling for images */
 img {
     max-width: 100%;
     height: auto;
@@ -21,11 +20,11 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    background-color: #555;
+    /* background-color: #555; */
     color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); */
 }
 
 header {
@@ -67,7 +66,7 @@ h2 {
     font-size: 2.5em;
 }
 
-.project {
+.project, .certificate {
     margin-bottom: 20px;
     background-color: #222;
     padding: 20px;
@@ -88,11 +87,21 @@ div.projects {
 }
 
 div.projects div.project {
-    width: 26%; /* Full width on small screens */
-    float: left; /* No floating on small screens */
-    margin: 1% ; /* Adjust margin for better spacing on small screens */
+    width: 26%; 
+    float: left; 
+    margin: 1% ; 
 }
 
+
+div.certificates div.certificate {
+    width: 26%; 
+    float: left; 
+    margin: 1% ; 
+}
+
+div.certificatess {
+    overflow: auto !important;
+}
 footer {
     background-color: #333;
     color: #fff;
@@ -100,6 +109,7 @@ footer {
     padding: 20px 0;
     bottom: 0;
     width: 100%;
+    margin-top: 1%;
 }
 
 .tabs {
@@ -126,19 +136,101 @@ footer {
     text-decoration: none;
 }
 
-/* Media query for tablets and smaller screens */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .container {
-        width: 90%; /* Adjust width for smaller screens */
+        width: 90%; 
     }
 
     header img {
-        right: 5%; /* Adjust position for smaller screens */
+        right: 5%; 
     }
 
     div.projects div.project {
-        width: 100%; /* Full width on small screens */
-        float: none; /* No floating on small screens */
-        margin: 1% 0; /* Adjust margin for better spacing on small screens */
+        width: 100%; 
+        float: left; 
+        margin: 1% 0; 
     }
+} */
+
+/* .projects-content {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
+
+.projects-content.fade-in {
+    opacity: 1;
+} */
+
+div.certificate{
+    text-align: left !important;
+}
+
+.img{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    /* padding-top:20%; */
+}
+
+img{
+    transition: transform .2s;
+    width:50%;
+    height:50%;
+    margin:0 auto;
+    background-color: rgb(173, 173, 237);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+img:hover{
+    transform:scale(1.5);
+}
+
+.card {
+    text-align: center;
+    /* padding: 20px; */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,2);
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: 3%;
+    background-color: #121212;
+    border-radius: 8px;
+    /* z-index: 1; */
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+
+.circle {
+    padding: 0 4px;
+}
+
+.box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #ff605c;
+}
+
+.yellow {
+    background-color: #ffbd44;
+}
+
+.green {
+    background-color: #00ca4e;
+}
+/* .link{
+    color: #ffc645 !important;
+    text-decoration: none !important;
+} */
