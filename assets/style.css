@@ -89,7 +89,7 @@ div.projects {
 div.projects div.project {
     width: 26%; 
     float: left; 
-    margin: 1% ; 
+    margin: 0.5% ; 
 }
 
 
@@ -237,5 +237,5 @@ img:hover{
 } */
 
 #html{
-    margin-left: 2%;
+    margin-left: 3%;
 }
