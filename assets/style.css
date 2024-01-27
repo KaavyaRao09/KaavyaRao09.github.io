@@ -67,8 +67,8 @@ h2 {
 }
 
 .project{
-    justify-content: center;
-    align-items: center;
+/*     justify-content: center;
+    align-items: center; */
     margin-bottom: 20px;
     background-color: #222;
     padding: 20px;
@@ -243,6 +243,6 @@ img:hover{
     text-decoration: none !important;
 } */
 
-/* #html{
+#html{
     margin-left: 3%;
-} */
+}
