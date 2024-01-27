@@ -66,8 +66,8 @@ h2 {
     font-size: 2.5em;
 }
 
-.project, .certificate{
-/*     justify-content: center;
+.project{
+    /* justify-content: center;
     align-items: center; */
     margin-bottom: 20px;
     background-color: #222;
@@ -76,13 +76,13 @@ h2 {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
-/* .certificate {
+.certificate {
     margin-bottom: 20px;
     background-color: #222;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-} */
+}
 .project h3 {
     color: #fff;
 }
@@ -246,3 +246,7 @@ img:hover{
 #html{
     margin-left: 1%;
 }
+/* 
+#personal-card{
+    justify-content: center;
+} */
